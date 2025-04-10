@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export const metadata = {
     title: {
         default: 'next.js tutorial - demo',
@@ -15,6 +17,7 @@ export default function RootLayout({ children }) {
                     padding: '2rem'
                 }}>
                     <p>header</p>
+                    <Link href={'/'}>Home</Link>
                 </header>
 
                 {children}
