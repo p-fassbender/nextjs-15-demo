@@ -4,6 +4,9 @@ export default function Home() {
     return (
         <>
             <h1>Welcome Home!</h1>
+            <Link href={'/login'}>login</Link> <br/>
+            <Link href={'/register'}>register</Link> <br/>
+            <Link href={'/forgot-password'}>forgot password</Link> <br/>
             <Link href={'/profile'}>profile</Link> <br/>
             <Link href={'/blog'}>blog</Link> <br/>
             <Link href={'/about'}>about</Link> <br/>
