@@ -1,5 +1,6 @@
 import Link from "next/link"
 import '../globals.css'
+import { ErrorWrapper } from "./error-wrapper"
 
 export const metadata = {
     title: {
@@ -21,7 +22,9 @@ export default function RootLayout({ children }) {
                     <Link href={'/'}>Home</Link>
                 </header>
 
-                {children}
+                <ErrorWrapper>
+                    {children}
+                </ErrorWrapper>
 
                 <footer style={{
                     backgroundColor: 'lightcoral',
