@@ -16,6 +16,7 @@ export default function Home() {
             <Link href={'/dashboard'}>dashboard</Link><br/>
             <Link href={'/counter'}>counter</Link><br/>
             <Link href={'/articles/breaking-news-123?lang=en'}>read article</Link><br/>
+            <Link href={'/complex-dashboard'}>complex dashboard</Link><br/>
         </>
     )
 }
